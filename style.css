@@ -1,0 +1,126 @@
+.attribution { font-size: 11px; text-align: center; display: none; }
+.attribution a { color: hsl(228, 78%, 49%); }
+
+body{
+    background: hsl(30, 38%, 92%);
+}
+
+.carousel{
+    margin: 3.5% auto 0;
+    background-color: whitesmoke;
+    width: 55%;
+    height: 90%;
+    border-radius: 3%;
+}
+
+.carousel img{
+    float: left;
+    width: 50%;
+    height: 40%;
+    border-radius: 2% 0 0 2%;
+    
+}
+
+
+.text{
+    
+    text-align: left;
+    margin-left:20px;
+}
+.text h5{
+    
+    color: rgb(182, 179, 179);
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding: 40px 0 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.text h2{
+    font-family: 'Fraunces';
+    font-size: 43px;
+    line-height: 0.95;
+    margin-bottom: 30px;
+}
+
+.text p{
+    font-family: "Montserrat";
+    color:gray;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.price{
+    font-family: "Fraunces";
+    color: hsl(158, 36%, 37%);
+    font-size: 50px;
+    margin-bottom: 40px;
+    position: relative;
+}
+span{
+    padding-left: 40px;
+    color:rgb(182, 179, 179);
+    font-size: 14px;
+    text-decoration: line-through;
+    position: absolute;
+    top: 20px;
+}
+.add{
+    margin: 0 auto;
+    background : hsl(158, 36%, 37%); 
+    width:  300px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5%;
+    font-family: "Montserrat";
+    color: whitesmoke;
+    padding-top: 4%;
+    transition-delay: 30ms;
+    transition-duration: 100ms;
+    transition-property: all;
+}
+svg{
+    margin-right:20px;
+}
+
+.add:hover{
+    background: hsl(159, 47%, 24%) ;
+}
+@media only screen and (max-width : 600px ) {
+    .carousel{
+        width: 80%; 
+        height: 80%; 
+        
+        
+    }
+    .carousel img{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 3% 3% 0 0;
+    }
+    .price{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    .add{
+        margin-bottom: 30px;
+    }
+    .text h5{
+        padding-top: 30px;
+    }
+    .text h2{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .add{
+        width: 60%;
+    }
+    .text p{
+        margin-bottom: 10px;
+    }
+    span{
+        top: 13px;
+    }
+}
