@@ -75,7 +75,7 @@ span{
     border-radius: 5%;
     font-family: "Montserrat";
     color: whitesmoke;
-    padding-top: 4%;
+    padding: 2% 0 2%;
     transition-delay: 30ms;
     transition-duration: 100ms;
     transition-property: all;
